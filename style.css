@@ -75,4 +75,18 @@ button {
     padding-left: 60px;
     padding-right: 60px;
   }
+
+  .column {
+    width: 16%;
+    padding-right: 1px;
+    margin-top: 0px;
+  }
+
+  .prev {padding-left: 10%;}
+
+  .next {padding-right: 8%;}
+
+
+
+
 }
