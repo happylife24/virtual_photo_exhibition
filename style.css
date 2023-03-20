@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: black;
+  color: pink;
+  font-family: cursive;
+}
+
+
+
+.mySlides {
+  display: inline-block;
+  width: 80%;
+  height: 40%;
+  margin-left: 11%;
+  padding: 20px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 40px;
+  margin-top: 200px;
+  color: rgb(248, 163, 211);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  padding-left: 140px;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  padding-right: 120px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  width: 16%;
+  padding-left: 9%;
+  margin-top: 0px;
+}
+
