@@ -6,9 +6,14 @@ header {
   position: sticky;
   top: 0;
   background: black;
-  color: pink;
+  color: rgb(180, 105, 183);
   font-family: cursive;
 }
+
+button {
+  background-color: black;
+}
+
 
 
 
@@ -32,9 +37,9 @@ header {
   width: auto;
   padding: 40px;
   margin-top: 200px;
-  color: rgb(248, 163, 211);
+  color: rgb(180, 105, 183);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 
@@ -43,7 +48,6 @@ header {
   border-radius: 3px 0 0 3px;
   padding-left: 140px;
 }
-
 
 .next {
   right: 0;
@@ -65,3 +69,10 @@ header {
   margin-top: 0px;
 }
 
+
+@media(max-width:700px) {
+  header {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
