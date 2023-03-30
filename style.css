@@ -10,8 +10,15 @@ header {
   font-family: cursive;
 }
 
+img {border-radius: 5px;}
+
 button {
   background-color: black;
+  border-radius: 5px;
+  border: solid 1px black;
+  width: 35px;
+  height: 40px;
+  padding: 0px;
 }
 
 
@@ -39,19 +46,17 @@ button {
   margin-top: 200px;
   color: rgb(180, 105, 183);
   font-weight: bold;
-  font-size: 40px;
+  font-size: 40px;  
 }
 
 
 .prev {
   left: 0;
-  border-radius: 3px 0 0 3px;
   padding-left: 140px;
 }
 
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
   padding-right: 120px;
 }
 
