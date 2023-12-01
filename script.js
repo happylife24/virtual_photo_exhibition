@@ -1,31 +1,26 @@
-var x = document.getElementById("myAudio");
-function playAudio() { x.play(); }
-function pauseAudio() { x.pause(); }
+//music playlist
+var music = document.getElementById("myAudio");
+
+function playAudio() {
+  music.play();
+}
+
+function pauseAudio() {
+  music.pause();
+}
 
 
-
-
-
-
-
-
-
+//sliding photos
 let slideIndex = 1;
 showSlides(slideIndex);
-
-
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
-
 
 function showSlides(n) {
   let i;

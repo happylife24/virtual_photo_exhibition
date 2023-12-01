@@ -13,12 +13,14 @@ header {
 img {border-radius: 5px;}
 
 button {
-  background-color: black;
-  border-radius: 5px;
-  border: solid 1px black;
-  width: 35px;
-  height: 40px;
-  padding: 0px;
+  font-size: 12px;
+  font-weight: 900;
+  background-color: rgb(245, 245, 114);
+  border-radius: 70%;
+  border: 5px double palevioletred;
+  width: 40px;
+  height: 30px;
+  padding-right: 3%;
 }
 
 
@@ -90,8 +92,4 @@ button {
   .prev {padding-left: 10%;}
 
   .next {padding-right: 8%;}
-
-
-
-
 }
