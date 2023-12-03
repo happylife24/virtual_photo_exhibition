@@ -1,5 +1,6 @@
 //music playlist
 var music = document.getElementById("myAudio");
+music.disabled = true;
 
 function playAudio() {
   music.play();
