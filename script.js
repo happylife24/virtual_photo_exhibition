@@ -3,11 +3,18 @@ let nowPlaying = false;
 
 function myFunction() {
   const button = document.getElementById("play");
+  var audio = button.parentElement.querySelector("audio");
 
   if (nowPlaying) {
     button.innerHTML = "Play";
+    audio.pause();
   } else {
     button.innerHTML = "Pause";
+    audio.play();
+  }
+
+  audio.onended = function() {
+    button.innerHTML = "Play";
   }
 
   nowPlaying = !nowPlaying;
