@@ -1,14 +1,18 @@
-//music playlist
-var music = document.getElementById("myAudio");
-music.disabled = true;
+//music button
+let nowPlaying = false;
 
-function playAudio() {
-  music.play();
+function myFunction() {
+  const button = document.getElementById("play");
+
+  if (nowPlaying) {
+    button.innerHTML = "Play";
+  } else {
+    button.innerHTML = "Pause";
+  }
+
+  nowPlaying = !nowPlaying;
 }
 
-function pauseAudio() {
-  music.pause();
-}
 
 
 //sliding photos
