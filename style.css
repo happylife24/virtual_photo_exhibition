@@ -41,18 +41,6 @@ img {border-radius: 10%;}
   cursor: pointer;
 }
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 10%;
-  padding-right: 5%;
-  width: 30%;
-  color: rgb(42, 2, 44);
-  font-size: 100px;
-  text-decoration: none;
-}
-
 .row:after {
   content: "";
   display: table;
@@ -76,13 +64,16 @@ img {border-radius: 10%;}
     font-size: 5vw;
   }
 
+  #play {
+    margin-right: 32%;
+    width: 6%;
+    font-size: 5vw;
+  }
+
   .column {
     width: 16%;
     padding-right: 1px;
     margin-top: 0px;
   }
 
-  .prev {padding-left: 10%;}
-
-  .next {padding-right: 8%;}
 }
