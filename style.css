@@ -23,12 +23,16 @@ ul li {
 }
 
 #play {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   margin-right: 32%;
-  width: 6%;
   color: black;
 }
 
-img {border-radius: 10%;}
+img {
+  border-radius: 10%;
+}
 
 .mySlides {
   display: inline-block;
@@ -55,6 +59,29 @@ img {border-radius: 10%;}
 }
 
 
+@media only screen and (max-width: 700px) {
+  body {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  header {
+    font-size: 4vw;
+  }
+
+  #play {
+    margin-right: 10%;
+  }
+
+  .column {
+    width: 16%;
+    padding-right: 1px;
+    margin-top: 0px;
+  }
+}
+
+
+/* for mobile phone */
 @media only screen and (max-width: 414px) {
   body {
     margin: 0 auto;
@@ -66,8 +93,7 @@ img {border-radius: 10%;}
   }
 
   #play {
-    margin-right: 32%;
-    width: 6%;
+    margin-right: 10%;
     font-size: 5vw;
   }
 
