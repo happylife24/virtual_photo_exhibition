@@ -69,7 +69,7 @@ img {border-radius: 5px;}
 }
 
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 414px) {
   body {
     position: absolute;
     left: 0;
