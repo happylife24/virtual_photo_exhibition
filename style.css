@@ -11,18 +11,30 @@ header {
   position: sticky;
   top: 0;
   background: black;
-  color: rgb(180, 105, 183);
+  color: rgb(244, 240, 244);
   font-family: arial;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  font-size: 20px;
 }
 
-img {border-radius: 5px;}
+ul li {
+  list-style: none;
+}
 
+#play {
+  margin-right: 32%;
+  width: 6%;
+  
+}
+
+img {border-radius: 10%;}
 
 .mySlides {
   display: inline-block;
   width: 80%;
   height: 40%;
-  margin-left: 11%;
+  margin-left: 9%;
   padding: 20px;
 }
 
@@ -34,33 +46,19 @@ img {border-radius: 5px;}
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 40px;
-  margin-top: 200px;
-  color: rgb(180, 105, 183);
-  font-weight: bold;
-  font-size: 40px;  
+  top: 10%;
+  padding-right: 5%;
+  width: 30%;
+  color: rgb(42, 2, 44);
+  font-size: 100px;
+  text-decoration: none;
 }
-
-
-.prev {
-  left: 0;
-  padding-left: 140px;
-}
-
-.next {
-  right: 0;
-  padding-right: 120px;
-}
-
 
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 
 .column {
   width: 16%;

@@ -21,8 +21,6 @@ function myFunction() {
 }
 
 
-//
-
 //sliding photos
 let slideIndex = 1;
 showSlides(slideIndex);
