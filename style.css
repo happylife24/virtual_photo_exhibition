@@ -68,9 +68,6 @@ img {border-radius: 10%;}
 
 @media only screen and (max-width: 414px) {
   body {
-    position: absolute;
-    left: 0;
-    right: 0;
     margin: 0 auto;
     width: 100%;
   }
@@ -83,7 +80,7 @@ img {border-radius: 10%;}
     font-family: arial;
     padding-top: 8px;
     padding-bottom: 1px;
-    font-size: 0 auto;
+    font-size: 16px;
   }
 
   .column {
