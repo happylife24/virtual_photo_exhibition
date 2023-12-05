@@ -70,9 +70,12 @@ img {border-radius: 5px;}
 
 
 @media only screen and (max-width: 401px) {
-  header {
-    padding-left: 60px;
-    padding-right: 60px;
+  body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .column {
