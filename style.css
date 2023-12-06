@@ -13,6 +13,12 @@ header {
   padding-bottom: 1px;
 }
 
+.column {
+  width: 16%;
+  padding-left: 5%;
+  margin-top: 0px;
+}
+
 img {
   border-radius: 10%;
 }
@@ -33,12 +39,6 @@ img {
   content: "";
   display: table;
   clear: both;
-}
-
-.column {
-  width: 16%;
-  padding-left: 5%;
-  margin-top: 0px;
 }
 
 
