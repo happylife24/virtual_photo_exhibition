@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  margin: 0 auto;
+  width: 100%;
 }
 
 header {
@@ -16,7 +18,7 @@ header {
 .column {
   width: 16%;
   padding-left: 5%;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 img {
@@ -42,35 +44,35 @@ img {
 }
 
 
-@media only screen and (max-width: 700px) {
-  body {
-    margin: 0 auto;
-    width: 100%;
-  }
-
+@media only screen and (max-width: 1000px) {
   header {
     font-size: 4vw;
+  }
+
+  .row {
+   margin-top: 40px;
+   margin-bottom: 80px;
   }
 
   .column {
     width: 16%;
     padding-right: 1px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 }
 
 
 /* for mobile phone */
 @media only screen and (max-width: 414px) {
-  body {
-    margin: 0 auto;
-    width: 100%;
-  }
-
   header {
     font-size: 5vw;
   }
 
+  .row {
+    margin-top: 40px;
+    margin-bottom: 80px;
+   }
+   
   .column {
     width: 16%;
     padding-right: 1px;
