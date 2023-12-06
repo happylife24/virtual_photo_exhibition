@@ -1,33 +1,5 @@
 body {
   background-color: black;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 100%;
-}
-
-header {
-  position: sticky;
-  top: 0;
-  background: black;
-  color: rgb(244, 240, 244);
-  font-family: arial; 
-  font-size: 20px;
-  padding-top: 8px;
-  padding-bottom: 1px;
-}
-
-ul li {
-  list-style: none;
-}
-
-#play {
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  margin-right: 32%;
-  color: black;
 }
 
 img {
@@ -59,6 +31,20 @@ img {
 }
 
 
+
+
+header {
+  position: sticky;
+  top: 0;
+  background: black;
+  color: rgb(244, 240, 244);
+  font-family: arial; 
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 1px;
+}
+
+
 @media only screen and (max-width: 700px) {
   body {
     margin: 0 auto;
@@ -67,10 +53,6 @@ img {
 
   header {
     font-size: 4vw;
-  }
-
-  #play {
-    margin-right: 10%;
   }
 
   .column {
@@ -89,11 +71,6 @@ img {
   }
 
   header {
-    font-size: 5vw;
-  }
-
-  #play {
-    margin-right: 5%;
     font-size: 5vw;
   }
 

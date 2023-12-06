@@ -1,26 +1,26 @@
-//music button
-let nowPlaying = false;
+ //music button
+ let isPlaying = false;
 
-function myFunction() {
-  const button = document.getElementById("play");
-  var audio = button.parentElement.querySelector("audio");
+ function togglePlayPauseButton() {
+     const button = document.querySelector(".play");
+     var audio = document.getElementById("myAudio");
 
-  if (nowPlaying) {
-    button.innerHTML = "Play";
-    audio.pause();
-  } else {
-    button.innerHTML = "Pause";
-    audio.play();
-  }
+     if (isPlaying) {
+         button.innerHTML = "Play";
+         audio.pause();
+     } else {
+         button.innerHTML = "Pause";
+         audio.play();
+     }
 
-  audio.onended = function() {
-    button.innerHTML = "Play";
-  }
+     audio.onended = function () {
+         button.innerHTML = "Play";
+     }
 
-  nowPlaying = !nowPlaying;
-}
+     isPlaying = !isPlaying;
+ }
 
-
+ 
 //sliding photos
 let slideIndex = 1;
 showSlides(slideIndex);
