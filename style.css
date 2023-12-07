@@ -87,6 +87,10 @@ header {
     font-size: 5vw;
   }
 
+  .play {
+    font-size: 5vw;
+  }
+  
   .row {
     margin-top: 40px;
     margin-bottom: 80px;
