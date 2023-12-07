@@ -16,13 +16,17 @@ header {
 }
 
 .space {
-  margin-left: 400px;
+  margin-left: 450px;
+}
+
+.container {
+  padding-top: 40px;
 }
 
 .column {
   width: 16%;
   margin-top: 0;
-  padding-left: 5%; 
+  padding-left: 5%;
 }
 
 img {
@@ -82,7 +86,7 @@ img {
    }
   
   .space {
-    margin-left: 35px;
+    margin-left: 10px;
   }
 
   .column {
