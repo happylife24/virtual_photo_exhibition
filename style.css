@@ -5,20 +5,25 @@ body {
 }
 
 header {
-  position: sticky;
-  top: 0;
   background: black;
   color: rgb(244, 240, 244);
+  position: sticky;
+  top: 0;
   font-family: arial; 
   font-size: 20px;
   padding-top: 8px;
   padding-bottom: 1px;
 }
 
+.space {
+  margin-left: 400px;
+}
+
 .column {
   width: 16%;
-  padding-left: 5%;
   margin-top: 0;
+  padding-left: 5%;
+  
 }
 
 img {
@@ -54,6 +59,10 @@ img {
    margin-bottom: 80px;
   }
 
+  .space {
+    margin-left: 140px;
+  }
+
   .column {
     width: 16%;
     padding-right: 1px;
@@ -72,10 +81,14 @@ img {
     margin-top: 40px;
     margin-bottom: 80px;
    }
-   
+  
+  .space {
+    margin-left: 35px;
+  }
+
   .column {
     width: 16%;
-    padding-right: 1px;
     margin-top: 0px;
+    padding-right: 1px;
   }
 }
