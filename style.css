@@ -84,16 +84,17 @@ header {
 /* for mobile phone */
 @media only screen and (max-width: 414px) {
   header, .play {
-    font-size: 5vw;
+    font-size: 4vw;
+    padding-left: 3vw;
   }
   
   .row {
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 1px;
+    margin-bottom: 30px;
    }
   
   .space {
-    margin-left: 20px;
+    margin-left: 27px;
   }
 
   .column {
