@@ -33,7 +33,7 @@ header {
 
 /* space between text of header */
 .space {
-  margin-left: 450px;
+  margin-left: 420px;
 }
 
 
@@ -46,8 +46,8 @@ header {
 
 /* camera logo */
 .logo {
-  width: 10px;
-  height: 10px;
+  width: 25px;
+  height: 20px;
 }
 
 
