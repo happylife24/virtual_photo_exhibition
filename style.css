@@ -1,9 +1,12 @@
+/* */
 body {
   background-color: black;
   margin: 0 auto;
   width: 100%;
 }
 
+
+/* */
 header {
   background: black;
   color: rgb(244, 240, 244);
@@ -34,16 +37,22 @@ header {
   margin-left: 450px;
 }
 
+
+/* */
 .container {
   padding-top: 40px;
 }
 
+
+/* */
 .column {
   width: 16%;
   margin-top: 0;
   padding-left: 5%;
 }
 
+
+/* */
 .mySlides {
   display: inline-block;
   width: 80%;
@@ -58,6 +67,8 @@ header {
   cursor: pointer;
 }
 
+
+/* */
 .row:after {
   content: "";
   display: table;
