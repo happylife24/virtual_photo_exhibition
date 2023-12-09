@@ -89,7 +89,7 @@ header {
 }
 
 
-/* for web version */
+/*    for web version    */
 @media only screen and (max-width: 1000px) {
   header {
     font-size: 4vw;
@@ -103,39 +103,31 @@ header {
   .space {
     margin-left: 140px;
   }
-
-  .column {
-    width: 16%;
-    padding-right: 1px;
-    margin-top: 0;
-  }
 }
 
 
-/* for mobile phone */
-@media only screen and (max-width: 414px) {
-  header, .play {
-    font-size: 4vw;
-    padding-left: 3vw;
-  }
-  
-  .row {
-    margin-top: 1px;
-    margin-bottom: 30px;
-   }
-  
-  .space {
-    margin-left: 27px;
+/*     for mobile phone    */
+@media only screen and (max-width: 414px) { 
+  .play {
+  padding-left: 7px;
   }
 
-  .column {
-    width: 16%;
-    margin-top: 0px;
-    padding-right: 1px;
-  }
+  .txt {
+  font-size: 5vw;
+  font-family: arial; 
+}
 
-  .mySlides {
-    margin: 0 auto;
-    width: 100%;
-  }
+.logo {
+  width: 5vw;
+  height: 5vw;
+}
+ 
+.row {
+  margin-top: 0vw;
+  margin-bottom: 15vw;
+}
+  
+.space {
+  margin-left: 7vw;
+}
 }
