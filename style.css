@@ -1,8 +1,6 @@
 /* */
 body {
   background-color: black;
-  margin: 0 auto;
-  width: 100%;
 }
 
 
@@ -13,14 +11,13 @@ header {
   position: sticky;
   top: 0;
   border-style: double;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
 }
 
 
 /* music button */
 .play {
+  margin-top: 5px;
+  margin-left: 5px;
   border-radius: 10%;
   width: 55px;
   height: 30px;
@@ -31,23 +28,28 @@ header {
 }
 
 
-/* space between text of header */
-.space {
-  margin-left: 420px;
+/* align txt and logo in center */
+.txt, .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 8px;
 }
 
 
 /* text */
 .txt {
   font-size: 20px;
-  font-family: arial; 
+  font-family: arial;
 }
 
 
 /* camera logo */
 .logo {
-  width: 25px;
-  height: 20px;
+  width: 35px;
+  height: 30px;
 }
 
 
@@ -89,23 +91,6 @@ header {
 }
 
 
-/*    for web version    */
-@media only screen and (max-width: 1000px) {
-  header {
-    font-size: 4vw;
-  }
-
-  .row {
-    margin-top: 40px;
-    margin-bottom: 80px;
-  }
-
-  .space {
-    margin-left: 140px;
-  }
-}
-
-
 /*     for mobile phone    */
 @media only screen and (max-width: 414px) { 
   .play {
@@ -114,12 +99,12 @@ header {
 
   .txt {
   font-size: 5vw;
-  font-family: arial; 
+  font-family: arial;  
 }
 
 .logo {
-  width: 5vw;
-  height: 5vw;
+  width: 8vw;
+  height: 8vw;
 }
  
 .row {
