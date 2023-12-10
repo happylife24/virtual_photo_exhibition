@@ -11,7 +11,11 @@ Languages:
 <li>CSS</li>
 <li>JavaScript</li>
 </ul>
+<br>
+<br>
+<br>
 Framework:
+<br>
 <ul>
 <li>jsDelivr Bootstrap</li>
 </ul>
