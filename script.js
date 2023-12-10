@@ -1,4 +1,4 @@
- //music button
+ //   music button
  let isPlaying = false;
 
  function togglePlayPauseButton() {
@@ -21,7 +21,7 @@
  }
 
  
-//sliding photos
+//   sliding photos
 let slideIndex = 1;
 showSlides(slideIndex);
 
