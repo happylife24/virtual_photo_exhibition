@@ -28,6 +28,14 @@ header {
 }
 
 
+/* link sites */
+.sites {
+ color: white;
+ text-decoration: none;
+}
+
+
+
 /* align txt and logo in center */
 .txt, .logo {
   display: flex;
