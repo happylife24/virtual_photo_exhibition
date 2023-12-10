@@ -12,7 +12,6 @@ Languages:
 <li>JavaScript</li>
 </ul>
 <br>
-<br>
 Framework:
 <br>
 <ul>
