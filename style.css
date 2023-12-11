@@ -1,30 +1,35 @@
-/* */
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: black;
+  color: rgb(244, 240, 244);
+  font-family: arial;
 }
 
 
 /* */
 header {
-  background: black;
-  color: rgb(244, 240, 244);
+  background-color: black;
   position: sticky;
   top: 0;
   border-style: double;
+  border: 2px dotted white;
 }
 
 
 /* music button */
 .play {
+  padding: 0.25rem 0.50rem;
   margin-top: 5px;
   margin-left: 5px;
-  border-radius: 10%;
-  width: 55px;
-  height: 30px;
+  border-radius: 0.7rem;
+  border: 2px dotted white;
   background-color: green;
   color: white;
   font-size: 15px;
-  font-family: arial; 
 }
 
 
@@ -35,13 +40,13 @@ header {
 }
 
 
-
 /* align txt and logo in center */
-.txt, .logo {
+.txt, 
+.logo {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 0.6vw;
   padding-top: 7px;
   padding-bottom: 8px;
 }
@@ -49,21 +54,20 @@ header {
 
 /* text */
 .txt {
-  font-size: 20px;
-  font-family: arial;
+  font-size: 23px;
 }
 
 
 /* camera logo */
 .logo {
-  width: 35px;
-  height: 30px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 
 /* */
 .container {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 
@@ -72,16 +76,15 @@ header {
   width: 16%;
   margin-top: 0;
   padding-left: 5%;
+  margin-bottom: 3.5rem;
 }
 
 
 /* */
 .mySlides {
-  display: inline-block;
   width: 80%;
   height: 40%;
   margin-left: 9%;
-  padding: 20px;
 }
 
 
@@ -92,6 +95,7 @@ header {
 
 
 /* */
+/*
 .row:after {
   content: "";
   display: table;
@@ -101,26 +105,23 @@ header {
 
 /*     for mobile phone    */
 @media only screen and (max-width: 414px) { 
-  .play {
-  padding-left: 7px;
+  .txt, 
+  .logo {
+    gap: 0.1rem;
   }
 
   .txt {
-  font-size: 5vw;
-  font-family: arial;  
+  font-size: 1.1rem;
+  padding-left: 1rem;
 }
 
 .logo {
-  width: 8vw;
-  height: 8vw;
+  width: 15vw;
+  height: 12vw;
 }
- 
+
 .row {
-  margin-top: 0vw;
-  margin-bottom: 15vw;
-}
-  
-.space {
-  margin-left: 7vw;
+  margin-top: 0.5vw;
+  margin-bottom: 7vw;
 }
 }
