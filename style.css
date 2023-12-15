@@ -3,6 +3,7 @@
 }
 
 
+/* */
 body {
   background-color: black;
   color: rgb(244, 240, 244);
@@ -91,15 +92,6 @@ header {
 /* for click */
 .cursor {
   cursor: pointer;
-}
-
-
-/* */
-/*
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 
