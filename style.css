@@ -98,23 +98,19 @@ header {
 /*  button  */
 .button {
   display: flex;
-  gap: 47rem; 
+  gap: 44rem; 
   position: absolute;
-  top: 35rem; 
-}
-
-.button:hover .left-btn 
-.button:hover .right-btn {
-  opacity: 1.0;
+  top: 35rem;
+  right: 210px;
 }
   
 .left-btn {
   width: 0;
   height: 0;
-  border-top:20px solid transparent ;
+  border-top:30px solid transparent ;
   border-left: 40px solid transparent;  
-  border-right: 20px solid whitesmoke;  
-  border-bottom: 20px solid transparent;
+  border-right: 30px solid white;  
+  border-bottom: 30px solid transparent;
   background-color: transparent;
   opacity: 0.5;
 }
@@ -122,12 +118,17 @@ header {
 .right-btn {
   width: 0;
   height: 0;
-  border-top:20px solid transparent ;
-  border-left: 20px solid whitesmoke;  
+  border-top:30px solid transparent ;
+  border-left: 30px solid white;  
   border-right: 40px solid transparent;
-  border-bottom: 20px solid transparent;
+  border-bottom: 30px solid transparent;
   background-color: transparent;
   opacity: 0.5;
+}
+
+.button:hover .left-btn, 
+.button:hover .right-btn {
+  opacity: 1.0;
 }
 
 
