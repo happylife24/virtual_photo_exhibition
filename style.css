@@ -78,6 +78,7 @@ header {
   margin-top: 0;
   padding-left: 5%;
   margin-bottom: 3.5rem;
+  cursor: pointer;
 }
 
 
@@ -86,12 +87,6 @@ header {
   width: 80%;
   height: 40%;
   margin-left: 9%;
-}
-
-
-/*  for click  */
-.cursor {
-  cursor: pointer;
 }
 
 
@@ -113,6 +108,7 @@ header {
   border-bottom: 30px solid transparent;
   background-color: transparent;
   opacity: 0.5;
+  cursor: pointer;
 }
   
 .right-btn {
@@ -124,11 +120,19 @@ header {
   border-bottom: 30px solid transparent;
   background-color: transparent;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .button:hover .left-btn, 
 .button:hover .right-btn {
   opacity: 1.0;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
