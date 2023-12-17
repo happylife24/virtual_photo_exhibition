@@ -67,12 +67,6 @@ header {
 
 
 /* */
-.container {
-  padding-top: 50px;
-}
-
-
-/* */
 .column {
   width: 16%;
   margin-top: 0;
@@ -91,48 +85,52 @@ header {
 
 
 /*  button  */
-.button {
-  display: flex;
-  gap: 44rem; 
-  position: absolute;
-  top: 35rem;
-  right: 210px;
+.container {
+  position: relative;
+  width: 100%
+}
+
+.container 
+.left-btn,
+.right-btn {  
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
 }
   
-.left-btn {
-  width: 0;
-  height: 0;
-  border-top:30px solid transparent ;
+.container .left-btn {
+  position: absolute;
+  top: 55%; 
+  left: 12%; 
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-top: 30px solid transparent ;
   border-left: 40px solid transparent;  
   border-right: 30px solid white;  
   border-bottom: 30px solid transparent;
-  background-color: transparent;
   opacity: 0.5;
   cursor: pointer;
 }
   
-.right-btn {
-  width: 0;
-  height: 0;
-  border-top:30px solid transparent ;
+.container .right-btn {
+  position: absolute;
+  top: 55%; 
+  right: 7%; 
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-top: 30px solid transparent ;
   border-left: 30px solid white;  
   border-right: 40px solid transparent;
   border-bottom: 30px solid transparent;
-  background-color: transparent;
   opacity: 0.5;
   cursor: pointer;
 }
 
-.button:hover .left-btn, 
-.button:hover .right-btn {
+.container 
+.left-btn:hover, 
+.right-btn:hover {
   opacity: 1.0;
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 
