@@ -79,60 +79,28 @@ header {
 /* */
 .mySlides {
   margin: 0 auto;
-  width: 100%;
-  max-width: 700px;
-  margin-left: 18%;
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
 /*  button  */
 .button {
-  position: relative;
-  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.button
-.left-btn,
-.right-btn {  
-  width: 70px;
-  height: 50px;
-  background-color: transparent;
+.btn {
+  color: white;
   border: none;
-}
-  
-.button .left-btn {
-  position: absolute;
-  top: 50%;
-  left: 9%; 
-  padding: 1px 10px; 
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  border-top: 30px solid transparent ;
-  border-left: 40px solid transparent;  
-  border-right: 30px solid white;  
-  border-bottom: 30px solid transparent;
-  opacity: 0.5;
-  cursor: pointer;
-}
-  
-.button .right-btn {
-  position: absolute;
-  top: 50%; 
-  right: 5%;
-  padding: 1px 10px; 
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  border-top: 30px solid transparent ;
-  border-left: 30px solid white;  
-  border-right: 40px solid transparent;
-  border-bottom: 30px solid transparent;
-  opacity: 0.5;
+  font-size: 46px;
+  opacity: 0.4;
   cursor: pointer;
 }
 
-.button 
-.left-btn:hover, 
-.right-btn:hover {
+.btn:hover {
   opacity: 1.0;
 }
 
