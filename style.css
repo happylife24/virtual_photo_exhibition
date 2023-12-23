@@ -66,6 +66,13 @@ header {
 }
 
 
+/* container */
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 /* */
 .column {
   width: 16%;
@@ -78,12 +85,10 @@ header {
 
 /* */
 .mySlides {
-  width: 90%;
-  height: 40%;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: -10px;
-  margin-right: -10px;
+  width: 80%;
+  height: 20%;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 
@@ -98,12 +103,9 @@ header {
   color: white;
   border: none;
   font-size: 46px;
-  opacity: 0.4;
   cursor: pointer;
-}
-
-.btn:hover {
-  opacity: 1.0;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 
